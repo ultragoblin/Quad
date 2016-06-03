@@ -1,31 +1,31 @@
-#include <Servo.h>
 
 
-Servo mot1;
-
+int ch;
+int cur_val=160;
+int max = 160;
+int min = 88;
 void setup() {
-  Serial.begin(115200); 
-  // put your setup code here, to run once:
-  Serial.println("hf");
-mot1.attach(5);
+  Serial.begin(9600);
+  pinMode(11, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  
-  mot1.write(120);
-/*for(int i=0; i<130; i+=50)
-{
-  Serial.println(i);
-  mot1.write(i);
-  delay(100);
-}
-
-for (int i=50; i>-1; i-=50)
-{
-  Serial.println(i);
-  mot1.write(i);
-  delay(100);
-}
-*/
+  if (Serial.available() > 0) {
+    // get incoming byte:
+    ch = Serial.read();
+    
+    if (ch == 45 && cur_val > min){
+      cur_val--;
+      Serial.println(String(cur_val));
+    }
+    else if (ch == 43 && cur_val < max){
+      cur_val++;
+      Serial.println(String(cur_val));
+    }
+    else if (ch == 32){
+      cur_val = min;
+      Serial.println(String(cur_val));
+    }
+  }
+  analogWrite(11,cur_val);
 }
