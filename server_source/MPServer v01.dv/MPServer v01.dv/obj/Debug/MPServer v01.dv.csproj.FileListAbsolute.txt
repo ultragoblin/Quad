@@ -1,0 +1,9 @@
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\bin\Debug\MPServer v01.dv.exe.config
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\bin\Debug\MPServer v01.dv.exe
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\bin\Debug\MPServer v01.dv.pdb
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\obj\Debug\MPServer_v01.dv.Form1.resources
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\obj\Debug\MPServer_v01.dv.Properties.Resources.resources
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\obj\Debug\MPServer v01.dv.csproj.GenerateResource.Cache
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\obj\Debug\MPServer v01.dv.exe
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\obj\Debug\MPServer v01.dv.pdb
+C:\Users\Sergey\Documents\Visual Studio 2012\Projects\MPServer v01.dv\MPServer v01.dv\obj\Debug\MPServer v01.dv.csprojResolveAssemblyReference.cache
